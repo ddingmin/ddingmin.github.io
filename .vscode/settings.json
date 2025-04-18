@@ -7,14 +7,15 @@
     "*.html": "liquid"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
     "editor.fontSize": 14,
     "editor.lineHeight": 26,
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 64,
     "editor.lineNumbers": "off",
     "editor.quickSuggestions": false,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true
   },
   // Formatter
   "[html][liquid]": {
